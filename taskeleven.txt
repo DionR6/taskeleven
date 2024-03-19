@@ -1,0 +1,20 @@
+Steps to create a free Virtual machine in Microsoft Azure
+
+1. Sign in to your azure account.
+2. Go to the virtual machines portal.
+3. Click on create and choose "Azure virtual machine".
+4. In the basics tab, enter the name of the VM and select the region.
+5. Leave the availability zone option as Zone 1.
+6. Choose the size of the server
+7. To access the VM a SSH public key has to be set. Select SSH public key in the authentication type field.
+8. Set the username and key pair name and choose "none" option in the public inbound ports field.
+9. Navigate to the disks section.
+10. Select standard HDD or SSD in OS disk type.
+11. Click Create a new disk and select size and type of the disk required(in this case, standard HDD.
+12. Move to the networking section.
+13. Select the Advanced networking and click on Create new button.
+14. Click Add an inbound rule.
+15. Enter the destination port ranges and select TCP protocol and click add.
+16. Navigate to the tags tab and enter a tag name.
+17. Go to review + create.
+18. Review all the configurations and finally click create.
